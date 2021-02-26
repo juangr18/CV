@@ -1,0 +1,62 @@
+body {
+  background-color: #a2a2a2;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.container-section {
+  width: 75%;
+  height: auto;
+  float: right;
+}
+
+aside {
+  background: black;
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  float: left;
+  position: fixed;
+}
+
+.skills {
+  width: 80%;
+}
+h1 {
+  font-size: 15px;
+}
+.name {
+  margin: auto;
+}
+footer {
+  margin: auto;
+  text-align: center;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+footer li {
+  /* text-decoration: none; */
+  list-style: none;
+  display: inline;
+  margin: 2px;
+}
+footer li a,
+.info a {
+  text-decoration-line: none;
+  color: white;
+  text-decoration-style: none;
+  -moz-text-decoration-line: none;
+}
+:hover footer li a,
+.info a {
+  color: white;
+}
+
+.email, .titulo, .copnia{
+  padding: 5px;
+
+}
